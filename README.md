@@ -1,23 +1,17 @@
 # Github Actions to Upload to Azure Files
+
+
+
 This action uses the Azure CLI to upload the selected directory to Azure Files.
 
 ## Inputs
 
-### `connection_string`
-
-**Required** The connection string for the storage account.
-
-### `source`
-
-**Required** The directory to upload files from.
-
-### `destination`
-
-**Required** The destination of the upload operation.
-
-### `extra_args`
-
-Extra arguments. Can passing flags like `--pattern` or `--destination-path`
+|Input|Required|Default|Description|
+|---|---|---|---|
+|connection_string|Yes|-|The connection string for the storage account.|
+|source|Yes|-|The directory to upload files from.|
+|destination|Yes|-|The destination of the upload operation.|
+|extra_args|No|-|Extra arguments. Can passing flags like `--pattern` or `--destination-path`|
 
 ## Example Usage
 
@@ -28,3 +22,4 @@ with:
   source: .
   destination: my-share
 ```
+|=
