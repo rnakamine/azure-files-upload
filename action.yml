@@ -11,3 +11,9 @@ inputs:
   destination:
     description: ''
     required: true
+  extra_args:
+    description: ''
+    required: false
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
