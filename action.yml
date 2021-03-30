@@ -1,6 +1,6 @@
 name: 'Azure Files Upload'
 description: 'This action uses the Azure CLI to upload the selected directory to Azure Files.'
-auther: 'Ryo Nakamine'
+auther: 'rnakamine'
 inputs:
   connection_string:
     description: 'The connection string for the storage account.'
