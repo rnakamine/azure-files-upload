@@ -4,6 +4,8 @@
 
 This action uses the Azure CLI to upload the selected directory to Azure Files.
 
+[Azure Files documentation \| Microsoft Docs](https://docs.microsoft.com/en-us/azure/storage/files/)
+
 ## Inputs
 
 |Input|Required|Default|Description|
@@ -11,7 +13,7 @@ This action uses the Azure CLI to upload the selected directory to Azure Files.
 |connection_string|Yes|-|The connection string for the storage account.|
 |source|Yes|-|The directory to upload files from.|
 |destination|Yes|-|The destination of the upload operation.|
-|extra_args|No|-|Extra arguments. Can passing flags like `--pattern` or `--destination-path`|
+|extra_args|No|-|Extra arguments. Can passing flags like `--pattern` or `--destination-path`. [Optional Parameters](https://docs.microsoft.com/en-us/cli/azure/storage/file?view=azure-cli-latest#az_storage_file_upload_batch-optional-parameters)|
 
 ## Example Usage
 
