@@ -2,17 +2,17 @@
 
 set -e
 
-if [ -z "$INPUT_CONNECTION_STRING" ] then;
+if [ -z "$INPUT_CONNECTION_STRING" ]; then
     echo ""
     exit 1
 fi
 
-if [ -z "$INPUT_SOURCE" ] then;
+if [ -z "$INPUT_SOURCE" ]; then
     echo ""
     exit 1
 fi
 
-if [ -z "$INPUT_DESTINATION" ] then;
+if [ -z "$INPUT_DESTINATION" ]; then
     echo ""
     exit 1
 fi
