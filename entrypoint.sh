@@ -1,19 +1,18 @@
 #!/bin/sh
-
 set -e
 
 if [ -z "$INPUT_CONNECTION_STRING" ]; then
-    echo ""
+    echo "connection_string is not set. Quitting."
     exit 1
 fi
 
 if [ -z "$INPUT_SOURCE" ]; then
-    echo ""
+    echo "source is not set. Quitting."
     exit 1
 fi
 
 if [ -z "$INPUT_DESTINATION" ]; then
-    echo ""
+    echo "destination is not set. Quitting."
     exit 1
 fi
 

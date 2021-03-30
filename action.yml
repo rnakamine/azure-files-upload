@@ -6,13 +6,13 @@ inputs:
     description: 'The connection string for the storage account.'
     required: true
   source:
-    description: ''
+    description: 'The directory to upload files from.'
     required: true
   destination:
-    description: ''
+    description: 'The destination of the upload operation.'
     required: true
   extra_args:
-    description: ''
+    description: 'Extra arguments. Can passing flags like `--pattern` or `--destination-path`'
     required: false
 runs:
   using: 'docker'
