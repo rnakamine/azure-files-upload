@@ -1,6 +1,6 @@
 # Github Actions to Upload to Azure Files
-
-
+![test](https://github.com/rnakamine/azure-files-upload/workflows/Test/badge.svg)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 This action uses the Azure CLI to upload the selected directory to Azure Files.
 
@@ -15,7 +15,7 @@ This action uses the Azure CLI to upload the selected directory to Azure Files.
 
 ## Example Usage
 
-```
+```yaml
 uses: rnakamine/azure-files-upload@v1
 with:
   connection_string: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
