@@ -1,0 +1,15 @@
+name: "Test"
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: test
+        uses: ./
+        with:
+          connection_string: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
+          source: .
+          destination: test-share
+          extra_args: "--dryrun"
