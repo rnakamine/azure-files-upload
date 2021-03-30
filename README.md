@@ -22,4 +22,3 @@ with:
   source: .
   destination: my-share
 ```
-|=
