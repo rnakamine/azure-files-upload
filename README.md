@@ -1,6 +1,6 @@
 # Github Actions to Upload to Azure Files
 
-![test](https://github.com/rnakamine/azure-files-upload/workflows/Test/badge.svg)
+![test](https://github.com/rnakamine/azure-files-upload/workflows/test/badge.svg)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 This action uses the Azure CLI to upload the selected directory to Azure Files.

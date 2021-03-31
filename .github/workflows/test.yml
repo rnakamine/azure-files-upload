@@ -1,13 +1,13 @@
-name: "Test"
-on: [push]
+name: test
+on: 
+  push
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: test
-        uses: ./
+      - uses: ./
         with:
           connection_string: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
           source: .
